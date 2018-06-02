@@ -1,4 +1,5 @@
 #!/bin/bash
 
 export PAK_C_MAK_CACHE_POSTFIX="-mingw"
-export PAK_C_MAK_CMAKE_GENERATOR="MinGW Makefiles"
+export PAK_C_MAK_CMAKE_ARGUMENTS="$PAK_C_MAK_CMAKE_ARGUMENTS -G 'MinGW Makefiles'"
+
